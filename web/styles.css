@@ -49,12 +49,18 @@ section {
     margin-left: 9pc;
 }
 
+
 .card {
     width: 350px;
     height: 450px;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
+}
+.card-container {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:70px;
 }
 
 .card img {
