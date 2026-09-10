@@ -94,3 +94,7 @@ section {
     margin: 0;
     line-height: 1.5;
 }
+.hruler {
+    font-size: 20px;
+    display: inline;
+}
