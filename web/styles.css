@@ -57,6 +57,7 @@ section {
     overflow: hidden;
     border-radius: 15px;
 }
+
 .card-container {
     display:grid;
     grid-template-columns: 300px 300px 300px;
