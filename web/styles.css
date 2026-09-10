@@ -1,33 +1,42 @@
-/* * {
-    margin: 0;
+
+
+*{
+    margin:0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #040a47;
 }
-
-.nav-container {
-    justify-content: space-between;
-    display:flex;
-
+body{
+    background-color: #0d2433;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.nav-container .menu hr{
+.navbar{
+    height: 100px;
     display: flex;
     align-items: center;
-    margin-left: 20px;
-    font-size: 20px;
+    justify-content: space-between;
+    padding: 0 28px;
 }
-.nav-container ul {
+.left-nav{
     display: flex;
-    list-style: none;
-    margin-right: 20px;
+    align-items: center;
+    gap:35px;
+}
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 20px;
+    color: #e6e6e6;
+}
+.logo span{
+    margin-left: 25px;
 }
 
-.menu .menu-icon{
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-} */
-/* Body section */
+
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #040a47;
@@ -97,4 +106,15 @@ section {
 .hruler {
     font-size: 20px;
     display: inline;
+}
+.card button {
+    background-color: #040a47;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 2px;
+}
+.card button:hover{
+    background-color: white;
+    color: black;
+
 }
